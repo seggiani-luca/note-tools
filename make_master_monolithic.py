@@ -4,7 +4,7 @@
 import os
 from datetime import datetime
 
-author = "luca seggiani"
+author = "Luca Seggiani"
 
 
 # trova se un file è latex
@@ -45,7 +45,7 @@ def get_tags(title):
     tags["date-tag"] = today.strftime("%d-%m-%y")
 
     # anno, trova l'anno corrente
-    tags["year-tag"] = today.strftime("%y")
+    tags["year-tag"] = today.strftime("%Y")
 
     return tags
 
